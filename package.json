@@ -1,13 +1,13 @@
 {
-    "name": "pen-paper-coffee-vscode",
-    "displayName": "Pen Paper Coffee",
-    "description": "A syntax theme specifically for writing papers in markdown but can also be used universally. Featuring a paper like color scheme.",
+    "name": "lowcontrast",
+    "displayName": "Low Contrast",
+    "description": "A dark, low contrast theme for general code use.",
     "repository": {
         "type": "git",
-        "url": "https://github.com/nylki/pen-paper-coffee-vscode.git"
+        "url": "https://github.com/gronk-droid/lowcontrast-vscode.git"
     },
-    "publisher": "nylki",
-    "version": "1.1.0",
+    "publisher": "gronk-droid",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.55.0"
     },
@@ -17,9 +17,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Pen Paper Coffee",
+                "label": "Low Contrast",
                 "uiTheme": "vs",
-                "path": "./themes/pen-paper-coffee-color-theme.json"
+                "path": "./themes/lowcontrast.json"
             }
         ]
     }
